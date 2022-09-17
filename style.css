@@ -1,0 +1,66 @@
+body {
+    margin: 50pt; 
+    padding:10pt;
+    font-family: "Sofia", sans-serif;
+    color: brown;
+    text-align: center;
+    /* need to do abs positioning and borders for photos*/
+}
+ul {
+    list-style: none;
+
+}
+h1{
+    font-family: "Ms Madi";
+    color: rgb(148, 80, 108);
+    font-size: 4cm;
+    /*text-align: center;*/
+}
+h2 { 
+    font-size: 1cm;
+}
+hr {
+    border: 1.5px dashed rgb(148, 80, 108);
+}
+/* make sure this is what she means by button*/
+a:link, a:visited {
+    background-color: antiquewhite;
+    color:rosybrown;
+    text-decoration: none;
+    padding:14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .75cm;
+}
+a:hover {
+    color: brown
+}
+.aboutme {
+    background-color: peachpuff;
+    padding: 50pt;
+}
+.skills {
+    background-color: antiquewhite;
+    padding: 100pt;
+}
+.contact {
+    background-color: peachpuff;
+    padding: 50pt;
+
+}
+.column1 {
+    float:left;
+    width: 50%;
+}
+/* need to do link for place of work at least one*/
+.column2 {
+    float:left;
+    width: 50%;
+    background-color: peachpuff;
+}
+
+.contactpage {
+    background-color: peachpuff;
+
+}
